@@ -7,7 +7,7 @@ import ClientsListContainer from './components/Clients/ClientsList/ClientsListCo
 const Routes = () => {
     return(
         <Switch>
-            <Route path="/clientsList" component={ClientsListContainer}/>
+            <Route path="/" component={ClientsListContainer}/>
             {/* <Route path="/newClient" component={ClientsFormContainer}/> */}
         </Switch>
     )
