@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header{
+  height: 95px;
+  width: 100%;
+  margin-bottom: 12px;
+  box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 0.477);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  z-index: 100;
+}
+
+.logo{
+  height: 50px;
+  margin: 30px 0 0 30px;
+}
+
+.content{
+  margin-bottom: 5%;
+  margin-top: 130px;
+}
+
+.buttonContainer{
+  text-align: right;
+  padding:15px;
+}
+.addButton{
+  background-color: #008CDD;
+  padding: 5px 10px;
+  color:white;
+  font-weight: bold;
+  border-radius: 6px;
+  text-align: center;
+  margin-right: 0;
+  box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.2)
+}
+.addButton:hover{
+  background-color: #F58B22;
+  cursor: pointer;
+}
+.title{
+  text-align: center;
+  font-weight: bold;
+  margin-top:2%;
+  font-size: 2.3rem;
+  color: #0071BB;
+}
+.clientsList{
+  padding: 15px;
+}
+
+.tableHeader{
+  background-color:#F58B22;
+  padding: 5px 0;
+  font-weight: bold; 
+  color:white;
+}
+
+.registro{
+  margin: 15px 0;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+.number{
+  text-align: center
+}
+
+.footer{
+  margin-top: 20px;
+  padding: 2%;
+  color: grey;
+  font-weight: bold;
+  left: 0px;
+  bottom: 0px;
+  box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 0.534);
+  width: 100%;
+  background: white;
+  text-align: center;
+  height: 95px;
+  padding: 3%;
+}
+.footerContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.footer i{
+  color: grey;
+  font-size: 25px;
+}
+
+.ant-form-item{
+  margin-bottom: 3px!important;
+}
+.ant-modal-header{
+  background-color: #F58B22!important;
+}
+.ant-modal{
+  margin-top:10%!important;
+}
+.titleModal{
+  color:white;
+}
